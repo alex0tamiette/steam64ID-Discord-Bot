@@ -7,7 +7,7 @@ Im not a developer, so my code can be improved a lot, I just wanted this and I g
 So far it works so I'm happy about it \O/
 
 #What I used
-Node.js > https://nodejs.org/en/ \n
+Node.js > https://nodejs.org/en/  \n
 Discord.js > https://discord.js.org
 axios > https://github.com/axios/axios
 Steam API > https://steamcommunity.com/dev
