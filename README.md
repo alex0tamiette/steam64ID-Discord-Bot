@@ -16,12 +16,12 @@ Sublime > www.sublimetext.com
 #How  
 How the bot works:  
 
->Detects a message on Discord  
->Verify for the command we set (In this case !64id)  
->Verify that the user is allowed to use the bot  
->Look for a valid steam64ID inside the message (Some people already have the id on the profile url)  
+• Detects a message on Discord  
+• Verify for the command we set (In this case !64id)  
+• Verify that the user is allowed to use the bot  
+• Look for a valid steam64ID inside the message (Some people already have the id on the profile url)  
 
->If found we can already get what we want. If not it uses the message as a search query to find the ID.  
+If found we can already get what we want. If not it uses the message as a search query to find the ID.  
 We have to requests to the Steam API.  
 
 First case is that we already have a Steam64ID, so we can get the data from this link:  
@@ -32,7 +32,7 @@ http://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001/?key=YOURSTEAMAPIK
 
 --------------------------  
 
->Check for the profile privacy status  
+Check for the profile privacy status  
 
 If Public we will get:  
 Steam64ID  
