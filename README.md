@@ -1,20 +1,20 @@
 # steam64ID-Discord-Bot
 
 #Briefing
-This is my first project in Node.js
-The idea is a simple bot that takes usernames on a Discord message and reply with the Steam64ID found
-Im not a developer, so my code can be improved a lot, I just wanted this and I got it!
-So far it works so I'm happy about it \O/
+This is my first project in Node.js  
+The idea is a simple bot that takes usernames on a Discord message and reply with the Steam64ID found  
+Im not a developer, so my code can be improved a lot, I just wanted this and I got it!  
+So far it works so I'm happy about it \O/  
 
 #What I used
 Node.js > https://nodejs.org/en/  
-Discord.js > https://discord.js.org
-axios > https://github.com/axios/axios
-Steam API > https://steamcommunity.com/dev
-Sublime > www.sublimetext.com
+Discord.js > https://discord.js.org  
+axios > https://github.com/axios/axios  
+Steam API > https://steamcommunity.com/dev  
+Sublime > www.sublimetext.com  
 
 #How
-The bot works in these steps:
+The bot works in these steps:  
 
 >Detects a message on Discord
 >Verify for the command we set (In this case !64id)
