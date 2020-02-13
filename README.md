@@ -13,8 +13,7 @@ axios > https://github.com/axios/axios
 Steam API > https://steamcommunity.com/dev  
 Sublime > www.sublimetext.com  
 
-#How  
-How the bot works:  
+#How the bot works  
 
 • Detects a message on Discord  
 • Verify for the command we set (In this case !64id)  
@@ -62,6 +61,14 @@ So I had to convert the date, make it a string and finally cut it down to get th
 
 • This bot was created for admins/moderators, if you use it right there's only 2 scenarios for the error function to be called  
 The ID provided is wrong or the Username provided wasn't found. (Assuming Steam API is working of course)  
+
+• My private keys and the prefix for the bot to listen to are in the file called config.json  
+Here it is:
+{
+	"prefix": "!",
+	"token": "BOT_TOKEN",
+	"steamapi": "STEAM_API_TOKEN"
+}
 
 ---------------------------------------------------------------------------------------------------------  
 
