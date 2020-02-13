@@ -30,7 +30,7 @@ https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v2/?key=YOURSTEAMAPIK
 Second case we got a possible username, so we use another link:  
 http://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001/?key=YOURSTEAMAPIKEY&vanityurl=USERNAMETOLOOK  
 
->--------------------------  
+--------------------------  
 
 >Check for the profile privacy status  
 
